@@ -11,10 +11,14 @@
             "id": "1bb76f5723df2031",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "wiki/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "index"
             }
           }
         ]
@@ -181,32 +185,38 @@
   },
   "active": "1bb76f5723df2031",
   "lastOpenFiles": [
-    "templates/synthesis.md",
-    "templates/entity.md",
-    "templates/topic.md",
-    "templates/source-summary.md",
-    "wiki/log.md",
+    "wiki/entities/web-common.md",
     "wiki/index.md",
-    "templates",
+    "wiki/entities/web-front.md",
+    "wiki/entities/web-app.md",
+    "wiki/topics/CSS 模組與 SCSS 遷移.md",
+    "wiki/topics/Component 分層與共用策略.md",
+    "wiki/sources/開發與維護 Summary.md",
+    "AGENTS.md",
+    "raw/sources/開發與維護.md",
+    "raw/sources/未命名.md",
+    "LLM-wiki.md",
+    "README.md",
+    "templates/entity.md",
     "wiki/topics",
     "wiki/syntheses",
     "wiki/sources",
+    "wiki/log.md",
     "wiki/entities",
     "wiki",
+    "templates/topic.md",
+    "templates/synthesis.md",
+    "templates/source-summary.md",
+    "templates",
     "raw/sources",
     "raw/assets",
     "raw",
-    "init-exmaple.md",
-    "raw/sources/開發與維護.md",
-    "wiki/sources/開發與維護 摘要.md",
-    "wiki/entities/web-app.md",
-    "歡迎.md",
-    "wiki/entities/Storybook.md",
-    "wiki/entities/web-front.md",
-    "wiki/entities/web-common.md",
     "wiki/topics/CSS 模組與樣式技術選型.md",
-    "wiki/topics/Component 分層與共用策略.md",
-    "wiki/sources/開發與維護.md",
-    "README.md"
+    "wiki/sources/開發與維護 摘要.md",
+    "wiki/entities/Storybook.md",
+    "init",
+    "init-exmaple.md",
+    "歡迎.md",
+    "wiki/sources/開發與維護.md"
   ]
 }

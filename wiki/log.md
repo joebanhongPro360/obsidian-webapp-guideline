@@ -12,6 +12,14 @@ updated: 2026-05-26
 
 本檔案為 append-only 的維護紀錄。重大變更、來源 ingest、耐久問答歸檔與 lint 結果都應記錄於此。
 
+## [2026-05-26] ingest | 開發與維護
+
+- Added: [[開發與維護 Summary]]
+- Added: [[Component 分層與共用策略]], [[CSS 模組與 SCSS 遷移]]
+- Added: [[web-common]], [[web-app]], [[web-front]]
+- Updated: [[index|Wiki Index]]
+- Notes: 來源為 Ray、Vincent、Joe 關於 component 分層、共用元件查找順序、Storybook 與 CSS 技術方向的討論。原始日期格式 `2026-0526 15:21:34 CST` 已於摘要中正規化為 2026-05-26；`web-front` 目前僅知道是 `web-common` 的使用專案之一。
+
 ## [2026-05-26] structure | 初始化 web-app guideline wiki
 
 - Added: [[index|Wiki Index]], [[log|Wiki Log]]

@@ -29,15 +29,18 @@ updated: 2026-05-26
 
 ## Source Summaries
 
-目前尚無來源摘要。新增來源後，摘要頁應放在 `wiki/sources/`。
+- [[開發與維護 Summary]] - Ray、Vincent、Joe 關於 component 分層、共用元件查找順序、Storybook 與 CSS 技術方向的討論摘要。日期：2026-05-26。
 
 ## Topics
 
-目前尚無主題頁。建議優先建立穩定且可重複引用的 guideline 主題，例如開發流程、版本控制、部署流程、維護流程。
+- [[Component 分層與共用策略]] - 定義 `base component`、`ui layer component` 與新增元件時的查找/共用順序。
+- [[CSS 模組與 SCSS 遷移]] - 記錄 CSS 與 component 共置慣例，以及從 `stylus` 朝 `scss` 收斂的方向。
 
 ## Entities
 
-目前尚無實體頁。實體頁可用於記錄專案、工具、服務、團隊、系統或重要名詞。
+- [[web-common]] - 共用元件來源，主要承載 `base component` 並以 Storybook 作為文件。
+- [[web-app]] - 主要 web app 專案，使用 `web-common`，並在 `web-app/modules/components` 保存 ui layer component。
+- [[web-front]] - `web-common` 的使用專案之一，目前待補更多專案職責。
 
 ## Syntheses
 
@@ -45,6 +48,7 @@ updated: 2026-05-26
 
 ## Open Questions
 
-- 尚未定義第一批要 ingest 的原始資料。
 - 尚未建立專案術語表。
-- 尚未建立 web app guideline 的核心分類。
+- `web-front` 的專案職責、技術棧與 component 使用方式尚未明確。
+- `stylus` 到 `scss` 的遷移範圍、時程與相容策略尚未定義。
+- `web-common` 與 `web-app/modules/components` 中的正式可複用元件清單尚未建立。

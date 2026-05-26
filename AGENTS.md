@@ -16,6 +16,15 @@ The agent's job is to transform raw sources and user questions into a maintained
 - Treat useful answers as knowledge that can be filed back into the wiki.
 - Update this `AGENTS.md` when the operating rules evolve.
 
+## Vault Configuration
+
+- Purpose and domain: web-app guideline.
+- Scope: development and maintenance practices, version control, deployment workflows, project terminology, and durable operational guidelines for web applications.
+- Preferred wiki language: Traditional Chinese (`zh-TW`), while preserving source titles, code terms, product names, and proper nouns when appropriate.
+- Expected source types: development notes, maintenance notes, version-control documentation, deployment process notes, project terminology, web clips, articles, PDFs, meeting notes, and personal notes.
+- Ingest review mode: for every ingest, first produce a source summary and proposed wiki updates for user confirmation. Only write or update wiki pages after the user confirms.
+- Naming and folders: use the recommended vault structure unless the user explicitly changes it.
+
 ## Required Startup Behavior
 
 When asked to initialize or substantially reorganize this vault:
